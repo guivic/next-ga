@@ -1,6 +1,8 @@
 # @guivic/next-ga
 Next.js HOC to integrate easily integrate Google Analytics and log every page change
 
+# NOT READY FOR PRODUCTION
+
 ## Installation
 
 ```bash
