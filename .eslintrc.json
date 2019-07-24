@@ -1,0 +1,30 @@
+{
+	"env": {
+		"browser": true
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"extends": "standard",
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"allowImportExportEverywhere": true
+	},
+	"plugins": [
+		"react"
+	],
+	"globals": {
+		"logger": true,
+		"workbox": true,
+		"importScripts": true
+	},
+	"extends": [
+		"@guivic/eslint-config-guivic"
+	],
+	"rules": {
+		"require-jsdoc": "off",
+		"react/jsx-uses-react": "error",
+		"react/jsx-uses-vars": "error"
+	}
+}

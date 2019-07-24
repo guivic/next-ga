@@ -1,0 +1,31 @@
+{
+  "name": "@guivic/next-ga",
+  "version": "0.0.1",
+  "description": "Next.js HOC to integrate easily integrate Google Analytics and log every page change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guivic/next-ga.git"
+  },
+  "author": "Guivic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guivic/next-ga/issues"
+  },
+  "homepage": "https://github.com/guivic/next-ga#readme",
+  "devDependencies": {
+    "@guivic/eslint-config-guivic": "^0.2.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3"
+  },
+  "dependencies": {
+    "react-ga": "^2.6.0"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
+  }
+}
