@@ -23,7 +23,7 @@
     "eslint-plugin-react": "^7.14.3"
   },
   "dependencies": {
-    "react-ga": "^2.6.0"
+    "react-ga": "^3.2.1"
   },
   "peerDependencies": {
     "react": "^16.8.6"
